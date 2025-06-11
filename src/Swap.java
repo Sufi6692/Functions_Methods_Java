@@ -3,10 +3,7 @@ public class Swap {
         int a = 10;
         int b = 20;
 
-// swap number code
-//        int  temp = a;
-//        a = b;
-//        b = temp;
+
 
         swap(a,b);
 
