@@ -9,9 +9,17 @@ public class Swap {
 
         System.out.println(a+" "+b);
 
+        String name = "Sufi khalandar";
+         changeName (name);
+        System.out.println(name);
 
         }
 
+        static  void changeName (String name){
+        name = "Rahul Rana";
+
+
+        }
         static void swap(int a, int b){
 
         int temp = a;
