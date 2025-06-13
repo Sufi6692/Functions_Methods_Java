@@ -15,10 +15,20 @@ public class Scope {
              // values initialised in this block, will remain in block
             System.out.println(name);
         }
+        int c = 900;
         System.out.println(a);
         System.out.println(name);
 
 //        System.out.println(c);// cannot use outside the block
+
+        //Scoping in for loops
+        for (int i = 0; i < 4; i++ ){
+            System.out.println(i);
+            int num = 90;
+          //  int a = 4; // you can't crate the same variable again anywhere if you create outside
+             a = 1000;
+
+        }
 
 
 
