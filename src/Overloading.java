@@ -14,7 +14,7 @@ public class Overloading {
     static int sum(int a, int b, int c){
         return  a + b + c;
     }
-    //hgigd asdfghbnmfvgbhjnm,.cfvhbnm,
+
 
     static void fun(int a){
         System.out.println("first one");
